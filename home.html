@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>COMP 426 Twitter</title>
+
+        <!-- Include links to CSS stylesheets below -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css" />
+        <link rel="stylesheet" href="styles.css" />
+        <link rel="stylesheet" href="node_modules/bulma/css/bulma.css" />
+    </head>
+
+    <body>
+        <div class="section has-background-info" id="welcome">
+            <h1 class="title has-text-white">COMP 426 Twitter</h1>
+            <h3 class="subtitle has-text-light">Where dreams come true</h3>
+        </div>
+
+        <div class="section" id="tweet">
+            <h3 class="subtitle">Have anything to say?</h3>
+            <button type ="submit" class="button is-info" id="makeTweetButton">Click to make tweet!</button>
+        </div>
+        
+        <div id="tweets">
+    
+        </div>
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+        <script src="render.js"></script>
+    </body>
+</html>
